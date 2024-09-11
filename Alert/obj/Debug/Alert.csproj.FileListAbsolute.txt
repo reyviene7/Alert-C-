@@ -1,0 +1,10 @@
+D:\POS C#\Alert\Alert\Alert\bin\Debug\Alert.exe.config
+D:\POS C#\Alert\Alert\Alert\bin\Debug\Alert.exe
+D:\POS C#\Alert\Alert\Alert\bin\Debug\Alert.pdb
+D:\POS C#\Alert\Alert\Alert\obj\Debug\Alert.FrmAlert.resources
+D:\POS C#\Alert\Alert\Alert\obj\Debug\Alert.FrmAlertBox.resources
+D:\POS C#\Alert\Alert\Alert\obj\Debug\Alert.Properties.Resources.resources
+D:\POS C#\Alert\Alert\Alert\obj\Debug\Alert.csproj.GenerateResource.cache
+D:\POS C#\Alert\Alert\Alert\obj\Debug\Alert.exe
+D:\POS C#\Alert\Alert\Alert\obj\Debug\Alert.pdb
+D:\POS C#\Alert\Alert\Alert\obj\Debug\Alert.csprojAssemblyReference.cache
