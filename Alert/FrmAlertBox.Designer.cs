@@ -40,9 +40,9 @@
             // 
             // PicAlertBox
             // 
-            this.PicAlertBox.Location = new System.Drawing.Point(38, 12);
+            this.PicAlertBox.Location = new System.Drawing.Point(51, 16);
             this.PicAlertBox.Name = "PicAlertBox";
-            this.PicAlertBox.Size = new System.Drawing.Size(50, 50);
+            this.PicAlertBox.Size = new System.Drawing.Size(35, 35);
             this.PicAlertBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicAlertBox.TabIndex = 0;
             this.PicAlertBox.TabStop = false;
