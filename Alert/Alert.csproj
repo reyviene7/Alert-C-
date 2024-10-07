@@ -107,5 +107,26 @@
   <ItemGroup>
     <None Include="Resources\information-svgrepo-com %284%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-circle-svgrepo-com.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-circle-svgrepo-com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Success %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Success %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-circle-svgrepo-com %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shield-warning-svgrepo-com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\danger-circle-svgrepo-com.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
