@@ -34,6 +34,7 @@
             this.BtnError = new System.Windows.Forms.Button();
             this.BtnWarning = new System.Windows.Forms.Button();
             this.BtnInfo = new System.Windows.Forms.Button();
+            this.toggleSwitch1 = new Alert.ToggleSwitch();
             ((System.ComponentModel.ISupportInitialize)(this.BtnExit)).BeginInit();
             this.SuspendLayout();
             // 
@@ -109,11 +110,28 @@
             this.BtnInfo.UseVisualStyleBackColor = false;
             this.BtnInfo.Click += new System.EventHandler(this.BtnInfo_Click);
             // 
+            // toggleSwitch1
+            // 
+            this.toggleSwitch1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.toggleSwitch1.IsOn = false;
+            this.toggleSwitch1.LabelColor = System.Drawing.Color.White;
+            this.toggleSwitch1.Location = new System.Drawing.Point(391, 84);
+            this.toggleSwitch1.Name = "toggleSwitch1";
+            this.toggleSwitch1.OffColor = System.Drawing.Color.Red;
+            this.toggleSwitch1.OffLabel = "OFF";
+            this.toggleSwitch1.OnColor = System.Drawing.Color.Green;
+            this.toggleSwitch1.OnLabel = "ON";
+            this.toggleSwitch1.Radius = 20;
+            this.toggleSwitch1.Size = new System.Drawing.Size(100, 40);
+            this.toggleSwitch1.SwitchColor = System.Drawing.Color.White;
+            this.toggleSwitch1.TabIndex = 5;
+            // 
             // FrmAlert
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 312);
+            this.Controls.Add(this.toggleSwitch1);
             this.Controls.Add(this.BtnInfo);
             this.Controls.Add(this.BtnWarning);
             this.Controls.Add(this.BtnError);
@@ -136,6 +154,7 @@
         private System.Windows.Forms.Button BtnError;
         private System.Windows.Forms.Button BtnWarning;
         private System.Windows.Forms.Button BtnInfo;
+        private ToggleSwitch toggleSwitch1;
     }
 }
 
